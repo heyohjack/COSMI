@@ -65,4 +65,4 @@ if __name__ == '__main__':
         for idx_m, m in enumerate(levels):
             seed = 10001 + 5 * idx_c + idx_m
             df = scm_data_generation(1000, c, m, seed=seed)
-            df.to_csv(f'./data/validation_c{c}_m{m}.csv', index=False)
+            df.to_csv(f'./data/validation_c{c}_m{m}_z0.csv', index=False)

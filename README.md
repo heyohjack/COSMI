@@ -10,7 +10,7 @@ Official implementation and synthetic datasets for the manuscript **"COSMI: Cons
 - `data/`: Contains all 200 synthetic datasets evaluated in the paper:
   - `data1_1.csv` to `data10_10.csv` (100 datasets): Main $10 \times 10$ confounder–mediator benchmark datasets ($|\mathcal{C}|, |\mathcal{M}| \in \{1, \dots, 10\}$, $n = 1000$, `seed=1`; Sections 3.1, 3.4, and 3.5).
   - `negative_c*_m*_z*.csv` (75 datasets): Post-treatment non-mediator ($Z$) robustness datasets ($|\mathcal{C}|, |\mathcal{M}| \in \{1, 3, 5, 7, 10\}$, $|\mathcal{Z}| \in \{1, 5, 10\}$, $n = 1000$; Section 3.6).
-  - `validation_c*_m*.csv` (25 datasets): Independent validation datasets for verification-threshold sensitivity analysis ($|\mathcal{C}|, |\mathcal{M}| \in \{1, 3, 5, 7, 10\}$, $n = 1000$; Section 3.7).
+  - `validation_c*_m*_z0.csv` (25 datasets): Independent validation datasets for verification-threshold sensitivity analysis ($|\mathcal{C}|, |\mathcal{M}| \in \{1, 3, 5, 7, 10\}$, $n = 1000$; Section 3.7).
 
 ## Requirements
 
