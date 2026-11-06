@@ -56,7 +56,7 @@ if __name__ == '__main__':
     for z in [1, 5, 10]:
         for idx_c, c in enumerate(levels):
             for idx_m, m in enumerate(levels):
-                seed = 20001 + 5 * idx_c + idx_m
+                seed = 10001 + 5 * idx_c + idx_m
                 df = scm_data_generation(1000, c, m, seed=seed, n_nonmediator_z=z)
                 df.to_csv(f'./data/negative_c{c}_m{m}_z{z}.csv', index=False)
 
